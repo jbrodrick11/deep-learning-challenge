@@ -34,10 +34,16 @@ How many neurons, layers, and activation functions did you select for your neura
 * Both hidden layers use the "relu" activation function.
 * One output layer with a single neuron, which uses the "sigmoid" activation function.
 
-![First Model](Screenshots/Image_1 "First Model")
+![First Model](Screenshots/Image_1.png "First Model")
 
 Were you able to achieve the target model performance?
-* With my initial code, i acheived an accuracy score of 72%. With my attempted optimisations (listed below) I only managed a score of 71%.
+* With my initial code, i acheived an accuracy score of 72%. 
+
+![First Result](Screenshots/Image_2.png "First Result")
+
+* With my attempted optimisations (listed below) I only managed a score of 71%.
+
+![Second Result](Screenshots/Image_4.png "Second Result")
 
 What steps did you take in your attempts to increase model performance?
 * One input layer with the same number of neurons as the number of features in the input data (43).
@@ -45,6 +51,8 @@ What steps did you take in your attempts to increase model performance?
 * The first two hidden layers use the "relu" activation function, the third uses Tanh and the fourth uses Sigmoid.
 * One output layer with a single neuron, which uses the "sigmoid" activation function.
 * I increased the epochs to 200 from 100 in the initial code. 
+
+![Second Model ](Screenshots/Image_3.png "Second Model")
 
 ### Summary:
 Overall, the deep learning model was able to not able to achieve the target of at least 75% accuracy. The optimized model was able to achieve an accuracy of around 71%, which the original left me at 72%. I belive that including the NAME column allows for a higher accuracy, but as mentioned earlier in my analysis, i belive including the name is training the model to focus on specific names instead of the overall features. 
