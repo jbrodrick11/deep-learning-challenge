@@ -34,8 +34,10 @@ How many neurons, layers, and activation functions did you select for your neura
 * Both hidden layers use the "relu" activation function.
 * One output layer with a single neuron, which uses the "sigmoid" activation function.
 
+![First Model](Screenshots/Image_1 "First Model")
+
 Were you able to achieve the target model performance?
-* WIth my initial code, i acheived an accuracy score of 72%. With my attempted optimisations (listed below) I only managed a score of 71%.
+* With my initial code, i acheived an accuracy score of 72%. With my attempted optimisations (listed below) I only managed a score of 71%.
 
 What steps did you take in your attempts to increase model performance?
 * One input layer with the same number of neurons as the number of features in the input data (43).
