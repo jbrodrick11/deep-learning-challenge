@@ -10,12 +10,12 @@ This assignment involves utilising Supervised Machine Learning methods to classi
 
 ## Deep Network Analysis Report
 
-###Overview of the Analysis:
+### Overview of the Analysis:
 The purpose of this analysis is to build a deep learning model using Keras to predict whether applicants will be successful if funded by Alphabet Soup. The model takes in a set of input variables related to the applicant's organization and their application, and predicts whether the funding should be approved or not. The model is trained on a dataset provided by Alphabet Soup, which contains information about thousands of organizations that have previously received funding.
 
 
-###Results:
-####Data Preprocessing:
+### Results:
+#### Data Preprocessing:
 
 What variable(s) are the target(s) for your model?
 * The target variable for the model is the 'IS_SUCCESSFUL' column, which indicates whether the organization was successful in receiving funding from Alphabet Soup.
@@ -26,7 +26,7 @@ What variable(s) are the features for your model?
 What variable(s) should be removed from the input data because they are neither targets nor features?
 * The "EIN" and "NAME" columns are unique identifiers for the organizations and do not provide any useful information for the model, so they can be removed from the input data. Including "NAME" does actually increase the accuracy it seems, however I feel this is because the NAME column lends itself to overfitting the model and making it far too specific based on the organisation names themselves. 
 
-####Compiling, Training, and Evaluating the Model
+#### Compiling, Training, and Evaluating the Model
 
 How many neurons, layers, and activation functions did you select for your neural network model, and why?
 * One input layer with the same number of neurons as the number of features in the input data (43).
@@ -44,7 +44,7 @@ What steps did you take in your attempts to increase model performance?
 * One output layer with a single neuron, which uses the "sigmoid" activation function.
 * I increased the epochs to 200 from 100 in the initial code. 
 
-###Summary:
+### Summary:
 Overall, the deep learning model was able to not able to achieve the target of at least 75% accuracy. The optimized model was able to achieve an accuracy of around 71%, which the original left me at 72%. I belive that including the NAME column allows for a higher accuracy, but as mentioned earlier in my analysis, i belive including the name is training the model to focus on specific names instead of the overall features. 
 
 One recommendation for a different model that could solve this classification problem is to use a Random Forest, which can handle non-linear relationships between the features and the target variable andpotentially provide better interpretability of the model's predictions.
