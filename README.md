@@ -4,7 +4,7 @@
 
 ## Summary
 
-This assignment involves utilising Supervised Machine Learning methods to classify and perform predictions and analysis on Credit Risk data.
+This assignment involves utilising Deep Learning methods to train a model to predict approval rates for charities applying for funding.
 
 ---
 
